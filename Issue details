@@ -1,0 +1,96 @@
+Mac-Ataii:app Prasanna$ mrt add iron-router
+
+Done installing smart packages
+
+Stand back while Meteorite does its thing
+
+Done installing smart packages
+
+Ok, everything's ready. Here comes Meteor!
+
+iron-router: updating npm dependencies -- connect...
+npm WARN using --force I sure hope you know what you are doing.
+npm http GET https://registry.npmjs.org/connect/2.9.0
+npm http 304 https://registry.npmjs.org/connect/2.9.0
+npm http GET https://registry.npmjs.org/connect/-/connect-2.9.0.tgz
+npm http 200 https://registry.npmjs.org/connect/-/connect-2.9.0.tgz
+npm http GET https://registry.npmjs.org/buffer-crc32/0.2.1
+npm http GET https://registry.npmjs.org/cookie/0.1.0
+npm http GET https://registry.npmjs.org/pause/0.0.1
+npm http GET https://registry.npmjs.org/fresh/0.2.0
+npm http GET https://registry.npmjs.org/send/0.1.4
+npm http GET https://registry.npmjs.org/bytes/0.2.0
+npm http GET https://registry.npmjs.org/uid2/0.0.2
+npm http GET https://registry.npmjs.org/qs/0.6.5
+npm http GET https://registry.npmjs.org/cookie-signature/1.0.1
+npm http GET https://registry.npmjs.org/debug
+npm http GET https://registry.npmjs.org/methods/0.0.1
+npm http GET https://registry.npmjs.org/multiparty/2.1.8
+npm http 304 https://registry.npmjs.org/fresh/0.2.0
+npm http GET https://registry.npmjs.org/fresh/-/fresh-0.2.0.tgz
+npm http 304 https://registry.npmjs.org/bytes/0.2.0
+npm http GET https://registry.npmjs.org/bytes/-/bytes-0.2.0.tgz
+npm http 304 https://registry.npmjs.org/uid2/0.0.2
+npm http GET https://registry.npmjs.org/uid2/-/uid2-0.0.2.tgz
+npm http 304 https://registry.npmjs.org/send/0.1.4
+npm http 304 https://registry.npmjs.org/pause/0.0.1
+npm http 304 https://registry.npmjs.org/cookie/0.1.0
+npm http GET https://registry.npmjs.org/send/-/send-0.1.4.tgz
+npm http GET https://registry.npmjs.org/pause/-/pause-0.0.1.tgz
+npm http GET https://registry.npmjs.org/cookie/-/cookie-0.1.0.tgz
+npm http 304 https://registry.npmjs.org/buffer-crc32/0.2.1
+npm http 304 https://registry.npmjs.org/methods/0.0.1
+npm http 304 https://registry.npmjs.org/debug
+npm http 304 https://registry.npmjs.org/cookie-signature/1.0.1
+npm http GET https://registry.npmjs.org/methods/-/methods-0.0.1.tgz
+npm http GET https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.1.tgz
+npm http GET https://registry.npmjs.org/debug/-/debug-0.8.1.tgz
+npm http GET https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.1.tgz
+npm http 304 https://registry.npmjs.org/qs/0.6.5
+npm http GET https://registry.npmjs.org/qs/-/qs-0.6.5.tgz
+npm http 304 https://registry.npmjs.org/multiparty/2.1.8
+npm http 200 https://registry.npmjs.org/bytes/-/bytes-0.2.0.tgz
+npm http GET https://registry.npmjs.org/multiparty/-/multiparty-2.1.8.tgz
+npm http 200 https://registry.npmjs.org/pause/-/pause-0.0.1.tgz
+npm http 200 https://registry.npmjs.org/cookie/-/cookie-0.1.0.tgz
+npm http 200 https://registry.npmjs.org/methods/-/methods-0.0.1.tgz
+npm http 200 https://registry.npmjs.org/send/-/send-0.1.4.tgz
+npm http 200 https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.1.tgz
+npm http 200 https://registry.npmjs.org/debug/-/debug-0.8.1.tgz
+npm http 200 https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.1.tgz
+npm http 200 https://registry.npmjs.org/fresh/-/fresh-0.2.0.tgz
+npm http 200 https://registry.npmjs.org/qs/-/qs-0.6.5.tgz
+npm http 200 https://registry.npmjs.org/multiparty/-/multiparty-2.1.8.tgz
+npm http 200 https://registry.npmjs.org/uid2/-/uid2-0.0.2.tgz
+npm ERR! Error: shasum check failed for /var/folders/n0/710dwvp55xvb_0pj90_qmdd00000gn/T/npm-15355-i9t9zT9T/1400925929016-0.1589465942233801/tmp.tgz
+npm ERR! Expected: 35a31834323578ee65f5d870568097914739cf4e
+npm ERR! Actual:   9edd6c9ee959eda4b4e092d3ecc50499ea1b8c57
+npm ERR! From:     https://registry.npmjs.org/multiparty/-/multiparty-2.1.8.tgz
+npm ERR!     at /Users/Prasanna/.meteor/tools/5bf1690853/lib/node_modules/npm/node_modules/sha/index.js:38:8
+npm ERR!     at ReadStream.<anonymous> (/Users/Prasanna/.meteor/tools/5bf1690853/lib/node_modules/npm/node_modules/sha/index.js:85:7)
+npm ERR!     at ReadStream.EventEmitter.emit (events.js:117:20)
+npm ERR!     at _stream_readable.js:920:16
+npm ERR!     at process._tickCallback (node.js:415:13)
+npm ERR! If you need help, you may report this *entire* log,
+npm ERR! including the npm and node versions, at:
+npm ERR!     <http://github.com/npm/npm/issues>
+
+npm ERR! System Darwin 13.2.0
+npm ERR! command "/Users/Prasanna/.meteor/tools/5bf1690853/bin/node" "/Users/Prasanna/.meteor/tools/5bf1690853/bin/npm" "install" "--force" "connect@2.9.0"
+npm ERR! cwd /Users/Prasanna/.meteorite/packages/iron-router/EventedMind/iron-router/d1ffb3f06ea4c112132b030f2eb1a70b81675ecb/.npm/package-new-h2h8kx
+npm ERR! node -v v0.10.26
+npm ERR! npm -v 1.4.3
+npm ERR! 
+npm ERR! Additional logging details can be found in:
+npm ERR!     /Users/Prasanna/.meteorite/packages/iron-router/EventedMind/iron-router/d1ffb3f06ea4c112132b030f2eb1a70b81675ecb/.npm/package-new-h2h8kx/npm-debug.log
+npm ERR! not ok code 0
+
+=> Errors while scanning packages:
+
+While building package `iron-router`:
+error: couldn't install npm package
+
+/usr/local/lib/node_modules/meteorite/lib/command.js:41
+            throw "Command exited with " + code + "/" + signal;
+                                                      ^
+Command exited with 1/null
